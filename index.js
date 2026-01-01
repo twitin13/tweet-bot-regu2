@@ -13,12 +13,11 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Diskon shopeefood 50% max 50rb ✅
+Martabak nya guyss 🥳🥳
+klaim vc diskonnya di halaman resto, siapa tau wangiii ✨️
+👍 spf.shopee.co.id/7fTBAIs3le
 
-Cek resto & klaim voc:
-https://spf.shopee.co.id/VzRfgwd69
-
-Kode promo voucher grabfood gofood go grab shopee food gojek gratis ongkir amanda Zahra
+gofood grabfood shopeefood kode promo go grab shopee food diskon voucher daget gojek
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -35,4 +34,5 @@ Kode promo voucher grabfood gofood go grab shopee food gojek gratis ongkir amand
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
